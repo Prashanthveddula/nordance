@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nordance</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background-image: url('kj.jpg'); 
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding-left: 80px;
-      font-family: Arial, sans-serif;
-    }
 
-    h1 {
-      color: white;
-      font-size: 100px;
-      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
-    }
-  </style>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nordance</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('kj.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 80px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            font-size: 6vw;
+            max-font-size: 100px;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-image: url('kj_2.jpg');
+                padding-left: 20px;
+                background-position: top center;
+            }
+
+            h1 {
+                font-size: 12vw;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Praaps Site</h1>
+    <h1>Praaps Site</h1>
 </body>
+
 </html>
